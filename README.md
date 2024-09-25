@@ -9,4 +9,8 @@
 
 ### Установка
 ``` bash
-git clone <>
+git clone <https://github.com/zzentr/news_bot.git>
+cd news_bot
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
